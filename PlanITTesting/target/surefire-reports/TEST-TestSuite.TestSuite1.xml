@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite.TestSuite1" time="30.126" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="files/103/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/allancarloramos/eclipse-workspace/PlanITTesting/target/test-classes:/Users/allancarloramos/eclipse-workspace/PlanITTesting/target/classes:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/allancarloramos/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/allancarloramos/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/allancarloramos/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/allancarloramos/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/allancarloramos/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/allancarloramos/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/allancarloramos/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/allancarloramos/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/allancarloramos/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/allancarloramos/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/allancarloramos/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/allancarloramos/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/allancarloramos/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/allancarloramos/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/allancarloramos/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/allancarloramos/.m2/repository/org/apache/poi/poi/3.16/poi-3.16.jar:/Users/allancarloramos/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/allancarloramos/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/allancarloramos/.m2/repository/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16.jar:/Users/allancarloramos/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.16/poi-ooxml-schemas-3.16.jar:/Users/allancarloramos/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/allancarloramos/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/allancarloramos/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Manila"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PH"/>
+    <property name="sun.boot.library.path" value="/Users/allancarloramos/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.4.v20220805-1047/jre/lib"/>
+    <property name="sun.java.command" value="/Users/allancarloramos/eclipse-workspace/PlanITTesting/target/surefire/surefirebooter5570561060170050759.jar /Users/allancarloramos/eclipse-workspace/PlanITTesting/target/surefire 2022-08-20T16-51-46_370-jvmRun1 surefire11082669489287903916tmp surefire_017359631328950338750tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/allancarloramos/eclipse-workspace/PlanITTesting/target/test-classes:/Users/allancarloramos/eclipse-workspace/PlanITTesting/target/classes:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/allancarloramos/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/allancarloramos/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/allancarloramos/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/allancarloramos/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/allancarloramos/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/allancarloramos/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/allancarloramos/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/allancarloramos/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/allancarloramos/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/allancarloramos/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/allancarloramos/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/allancarloramos/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/allancarloramos/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/allancarloramos/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/allancarloramos/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/allancarloramos/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/allancarloramos/.m2/repository/org/apache/poi/poi/3.16/poi-3.16.jar:/Users/allancarloramos/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/allancarloramos/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/allancarloramos/.m2/repository/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16.jar:/Users/allancarloramos/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.16/poi-ooxml-schemas-3.16.jar:/Users/allancarloramos/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/allancarloramos/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/allancarloramos/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/allancarloramos"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/Users/allancarloramos/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.4.v20220805-1047/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/allancarloramos/eclipse-workspace/PlanITTesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/allancarloramos/eclipse-workspace/PlanITTesting/target/surefire/surefirebooter5570561060170050759.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.4+8"/>
+    <property name="user.name" value="allancarloramos"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4+8"/>
+    <property name="localRepository" value="/Users/allancarloramos/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/4f/zws7d0td6vjfvvt5z1_q472m0000gn/T/"/>
+    <property name="java.version" value="17.0.4"/>
+    <property name="user.dir" value="/Users/allancarloramos/eclipse-workspace/PlanITTesting"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/allancarloramos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="main on main(TestCases.TESTCASE1_ContactPage)" classname="TestCases.TESTCASE1_ContactPage" time="7.051">
+    <system-out><![CDATA[*****Column NUMBER IS 1
+
+*****Row NUMBER IS 1
+***VALUE IS http://jupiter.cloud.planittesting.com 
+*****Column NUMBER IS 1
+
+*****Row NUMBER IS 1
+***VALUE IS Allan Carlo
+*****Column NUMBER IS 1
+
+
+*****Row NUMBER IS 2
+***VALUE IS allan.ramos@uap.asia
+*****Column NUMBER IS 1
+
+
+
+*****Row NUMBER IS 3
+***VALUE IS "Hello World"
+null
+is Null
+null
+is Null
+null
+is Null
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 37596
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660985509.065][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 20, 2022 4:51:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="main on main(TestCases.TESTCASE2_ContactPage2)" classname="TestCases.TESTCASE2_ContactPage2" time="10.525">
+    <system-out><![CDATA[*****Column NUMBER IS 1
+
+*****Row NUMBER IS 1
+***VALUE IS http://jupiter.cloud.planittesting.com 
+*****Column NUMBER IS 1
+
+*****Row NUMBER IS 1
+***VALUE IS Allan Carlo
+*****Column NUMBER IS 1
+
+
+*****Row NUMBER IS 2
+***VALUE IS allan.ramos@uap.asia
+*****Column NUMBER IS 1
+
+
+
+*****Row NUMBER IS 3
+***VALUE IS "Hello World"
+null
+is Null
+null
+is Null
+null
+is Null
+Validation is : Thanks Allan Carlo
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 12814
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660985515.462][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 20, 2022 4:51:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="main on main(TestCases.TESTCASE3_StartShopping1)" classname="TestCases.TESTCASE3_StartShopping1" time="5.764">
+    <system-out><![CDATA[*****Column NUMBER IS 1
+
+*****Row NUMBER IS 1
+***VALUE IS http://jupiter.cloud.planittesting.com 
+Value = 1
+Count = 1
+Fluffy Bunny Validation: 
+Values are equal
+Value = 2
+Count = 2
+Funny Cow Validation: 
+Values are equal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 40624
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660985525.972][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 20, 2022 4:52:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="main on main(TestCases.TESTCASE4_StartShopping2)" classname="TestCases.TESTCASE4_StartShopping2" time="6.378">
+    <system-out><![CDATA[*****Column NUMBER IS 1
+
+*****Row NUMBER IS 1
+***VALUE IS http://jupiter.cloud.planittesting.com 
+----------------------------------------
+Get into Loop
+$10.99
+Stuffed Frog Validation: 
+Values are equal
+2
+Stuffed Frog Validation: 
+Values are equal
+Stuffed Frog Validation quantity: 
+$21.98
+Stuffed Frog Validation: 
+Values are equal
+----------------------------------------
+$9.99
+Fluffy Bunny Validation: 
+Values are equal
+4
+Fluffy Bunny Validation: 
+Values are equal
+Fluffy Bunny Validation quantity: 
+$39.96
+Fluffy Bunny Validation: 
+Values are equal
+----------------------------------------
+$14.99
+Valentine Bear Validation: 
+Values are equal
+3
+Valentine Bear Validation: 
+Values are equal
+Valentine Bear Validation quantity: 
+$44.97
+Valentine Bear Validation: 
+Values are equal
+----------------------------------------
+Total Sum is : 106.91
+TOTAL Validation: 
+total_str_array:  106.91
+total_double: 106.91
+ Validation: 
+Values are equal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 10390
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660985531.746][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+Aug 20, 2022 4:52:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
